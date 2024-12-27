@@ -9,4 +9,16 @@ import { Component } from '@angular/core';
 })
 export class CollectionsHomeComponent {
 
+  data=[
+    {name:"ali",age : 26 ,job:"front"},
+    {name:"reza",age : 28 ,job:"backend"},
+    {name:"sara",age : 22 ,job:"UI"}
+
+  ]
+  header=[
+    {key:"name",value:"Name"},
+    {key:"age",value:"Age"},
+    {key:"job",value:"Job"},
+
+  ]
 }
