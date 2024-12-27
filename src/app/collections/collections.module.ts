@@ -5,12 +5,18 @@ import { CollectionsRoutingModule } from './collections-routing.module';
 import { CollectionsHomeComponent } from './collections-home/collections-home.component';
 import { SharedModule } from '../shared/shared.module';
 import { TableComponent } from './table/table.component';
+import { BiographComponent } from './biograph/biograph.component';
+import { PartnersComponent } from './partners/partners.component';
+import { CompaniesComponent } from './companies/companies.component';
 
 
 @NgModule({
   declarations: [
     CollectionsHomeComponent,
     TableComponent,
+    BiographComponent,
+    PartnersComponent,
+    CompaniesComponent,
   ],
   imports: [
     CommonModule,
