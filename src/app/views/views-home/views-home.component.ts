@@ -15,14 +15,14 @@ export class ViewsHomeComponent {
   ]
   items=[
     {
-      image:"/public/assets/images/couch.jpg",
+      image:"/assets/images/couch.jpg",
       header:"couch",
       title:"white couch",
       description:"this is a goods choise for everyone"
 
     },
     {
-      image:"/public/assets/images/dresser.jpg",
+      image:"/assets/images/dresser.jpg",
       header:"dresser",
       title:"white dresser",
       description:"this is a goods choise for young People"
